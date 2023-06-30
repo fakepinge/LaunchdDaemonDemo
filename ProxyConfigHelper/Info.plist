@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleIdentifier</key>
+        <!-- 子进程bundleId -->
+        <string>com.fakepinge.LaunchdDaemon.helper</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>1.0</string>
+        <key>CFBundleName</key>
+        <!-- 同bundleId -->
+        <string>com.fakepinge.LaunchdDaemon.helper</string>
+        <key>CFBundleShortVersionString</key>
+        <!-- 子进程版本号 -->
+        <string>1.0.0</string>
+        <key>CFBundleVersion</key>
+        <string>1</string>
+        <key>SMAuthorizedClients</key>
+        <!-- 配置主进程的签名参数 -->
+        <array>
+            <string>identifier "com.fakepinge.LaunchdDaemon" and anchor apple generic and certificate leaf[subject.CN] = 0x4170706c6520446576656c6f706d656e743a20e79fa5e5b9b320e883a120283543434d355a5652343729 and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+        </array>
+    </dict>
+</plist>

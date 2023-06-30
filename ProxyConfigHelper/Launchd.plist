@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>AssociatedBundleIdentifiers</key>
+        <!-- 主进程bundleId -->
+        <string>com.fakepinge.LaunchdDaemon</string>
+        <key>Label</key>
+        <!-- 子进程bundleId -->
+        <string>com.fakepinge.LaunchdDaemon.helper</string>
+        <key>MachServices</key>
+        <dict>
+            <!-- 子进程bundleId -->
+            <key>com.fakepinge.LaunchdDaemon.helper</key>
+            <true/>
+        </dict>
+    </dict>
+</plist>
